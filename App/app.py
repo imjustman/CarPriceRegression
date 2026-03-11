@@ -24,7 +24,7 @@ logger.add(
     "log.log", rotation="1 MB", level='DEBUG', compression="zip"
 )
 
-CONFIG_PATH = '../config_prod.yml'
+CONFIG_PATH = './config_prod.yml'
 
 with open(CONFIG_PATH, 'r', encoding='utf-8') as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.SafeLoader)
@@ -61,4 +61,6 @@ class ResponseModel(BaseModel):
     prediction_Id: object
     predict: object
 
-
+@app.get('/', include_in_schema=False)
+async def redirect():
+    return RedirectResponse('/docs')
