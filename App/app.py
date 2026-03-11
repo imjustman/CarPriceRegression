@@ -3,6 +3,10 @@ from fastapi.responses import RedirectResponse
 from typing import Union, List
 from pydantic import BaseModel, Field
 from loguru import logger
+from App.preprocess_data import preprocess
+
+import pandas as pd
+import numpy as np
 
 import skops.io as sio
 import uuid
@@ -11,6 +15,8 @@ import sys
 import yaml
 import os
 import joblib
+
+
 
 logger.remove()
 logger.add(
@@ -64,3 +70,21 @@ class ResponseModel(BaseModel):
 @app.get('/', include_in_schema=False)
 async def redirect():
     return RedirectResponse('/docs')
+
+@app.post('/predict', response_model = ResponseModel, status_code=status.HTTP_200_OK)
+async def predict(input: PredictionInput):
+    result = {
+        'prediction_Id': str(uuid.uuid4()),
+        'predict': ""
+    }
+    input_df = pd.DataFrame([input.dict()])
+    input_df = preprocess(input_df, category_dict)
+
+    logger.info(input_df)
+
+    prediction = str(model.predict(input_df))
+    logger.info(prediction)
+
+    result['predict'] = prediction
+
+    return result

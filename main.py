@@ -1,6 +1,4 @@
-import joblib
+import pandas as pd
+import time
 
-category_map = joblib.load('./Artifacts/category_map.pkl')
-model = joblib.load('./Model/model_pipe.pkl')
-
-print(model)
+print(type(time.localtime().tm_year))

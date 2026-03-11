@@ -1,0 +1,53 @@
+2026-03-11 23:29:07.400 | INFO     | App.app:predict:74 - HomeService='string' EncarDiagnosis='string' Manufacturer='string' Model='string' Badge='string' Transmission='string' FuelType='string' Year=0.0 Mileage=0.0 SellType='string' OfficeCityState='string'
+2026-03-11 23:30:18.843 | INFO     | App.app:predict:79 -                   0       1
+0       HomeService  string
+1    EncarDiagnosis  string
+2      Manufacturer  string
+3             Model  string
+4             Badge  string
+5      Transmission  string
+6          FuelType  string
+7              Year     0.0
+8           Mileage     0.0
+9          SellType  string
+10  OfficeCityState  string
+2026-03-11 23:32:17.634 | INFO     | App.app:predict:79 -   HomeService EncarDiagnosis Manufacturer   Model   Badge Transmission FuelType  Year  Mileage SellType OfficeCityState
+0      string         string       string  string  string       string   string   0.0      0.0   string          string
+2026-03-11 23:46:17.426 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer   Model   Badge Transmission FuelType  Year  Mileage SellType OfficeCityState
+0      string         string       string  Others  Others       string   string   0.0      0.0   string          string
+2026-03-11 23:55:40.597 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer Model       Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0      string         string       string  GV80  디젤 2.0 2WD       string   string      0.0   string          string            8           10
+2026-03-11 23:56:47.742 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0      string         string       string  쏘렌토 4세대  가솔린 1.6 터보 2WD       string   string      0.0   string          string           12            8
+2026-03-12 00:02:25.480 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model   Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  스타리아  Others           오토       디젤   4629.0       일반              부산           10            3
+2026-03-12 00:04:16.978 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model   Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  스타리아  Others           오토       디젤   4629.0       일반              부산           10            3
+2026-03-12 00:05:04.413 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model   Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  스타리아  Others           오토       디젤   4629.0       일반              부산           10            3
+2026-03-12 00:06:57.702 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model   Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  스타리아  Others           오토       디젤   4629.0       일반              부산           10            3
+2026-03-12 00:06:59.674 | INFO     | App.app:predict:86 - [2177.3917566]
+2026-03-12 00:08:30.325 | INFO     | App.app:predict:83 -    HomeService   EncarDiagnosis Manufacturer Model   Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnsisP1           현대  스타리아  Others           오토       디젤   4629.0       일반              부산           10            3
+2026-03-12 00:08:41.906 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model   Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  스타리아  Others           오토       디젤   4629.0       일반              부산           10            3
+2026-03-12 00:08:43.395 | INFO     | App.app:predict:86 - [2177.3917566]
+2026-03-12 00:10:20.830 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model   Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1    쉐보레(GM대우)  올 뉴 말리부  Others           오토      가솔린  125969.0       일반              광주           11           10
+2026-03-12 00:10:20.858 | INFO     | App.app:predict:86 - [603.89321299]
+2026-03-12 00:11:25.743 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 00:11:25.775 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 00:11:30.587 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 00:11:30.616 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 00:12:18.952 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 00:12:20.875 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 00:12:24.457 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 00:12:24.485 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 00:13:13.277 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 00:13:14.762 | INFO     | App.app:predict:86 - [724.9287928]
