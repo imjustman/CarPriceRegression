@@ -1,3 +1,10 @@
 requests
 pandas
+numpy
 tqdm
+matplotlib
+seaborn
+catboost
+lightgbm
+xgboost
+scikit-learn
