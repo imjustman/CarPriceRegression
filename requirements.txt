@@ -8,3 +8,8 @@ catboost
 lightgbm
 xgboost
 scikit-learn==1.6.1
+fastapi
+loguru
+skops
+pyYAML
+uvicorn
