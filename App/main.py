@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 import plotly.express as px
 
+df = pd.read_csv('Data/encar_data.csv')
 st.set_page_config(page_title='ML Model Predictor', layout='wide')
 
 st.title("중고차 가격 예측 서비스 (Encar 기반)")
@@ -17,8 +18,33 @@ with st.sidebar:
     HomeService = st.selectbox('엔카 믿고 등록 여부', ['엔카믿고', '없음'])
     EncarDiagnosis = st.selectbox('엔카 진단 등록 여부', ['엔카진단', '엔카진단+', '엔카진단++', '없음'])
     brand = st.selectbox("브랜드", ['기아', '현대', '제네시스', 'KG모빌리티(쌍용)', '쉐보레(GM대우)', '르노코리아(삼성)', '기타 제조사'])
-    model = st.selectbox('모델', ['카니발 4세대'])
-    badge = st.selectbox('배지', ['가솔린 9인승 프레스티지', '9인승 노블레스', '9인승 시그니처'])
+
+    model_list = []
+    if brand == '기아':
+        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
+    elif brand == '현대':
+        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
+    elif brand == '제네시스':
+        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
+    elif brand == 'KG모빌리티(쌍용)':
+        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
+    elif brand == '쉐보레(GM대우)':
+        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
+    elif brand == '르노코리아(삼성)':
+        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
+    else:
+        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
+
+    model = st.selectbox('모델', model_list + ['기타'])
+
+    badge_list = []
+    if model == '기타':
+        badge_list = ['기타']
+    else:
+        badge_list = df.loc[df['Model'] == model, 'Badge'].unique().tolist()
+
+    badge = st.selectbox('배지', badge_list + ['기타'])
+
     transmission = st.selectbox('변속기', ['오토', '세미오토', '수동', 'CVT'])
     fuel_type = st.selectbox('연료', ['가솔린', '디젤', '가솔린+전기', 'LPG(일반인 구입)', '전기', '수소', '가솔린+LPG', 'LPG+전기'])
     sell_type = st.selectbox('판매방식', ['일반', '렌트', '리스'])
@@ -54,25 +80,26 @@ if predict_button:
     }
 
     try:
-        with st.spinner('AI 모델이 가격을 계산 중입니다....'):
+        with st.spinner('AI 모델이 가격을 계산 중입니다'):
             response = requests.post('http://localhost:8000/predict', json=input_data)
             response.raise_for_status()
             result = response.json()
 
             prediction = int(float(result.get('predict')[1:-1]))
             prediction_id = result.get('prediction_Id')
-            print(result)
+
         with col1:
             st.success("### 예측 결과")
             st.metric(label='예상 판매 가격', value=f"{prediction}만원")
 
         with col2:
-            st.info("### 특성 중요도 (Feature Importance)")
+            st.info("### 예측 근거")
             importance_df = pd.DataFrame({
-                'Feature': ['연식', '주행거리', '브랜드', '뱃지여부'],
-                'Importance': [0.45, 0.3, 0.15, 0.1]
+                'Feature': result.get('explain_feature_labels'),
+                'Importance': result.get('explain_feature_values')
             })
-            fig = px.bar(importance_df, x="Importance", y="Feature", orientation='h', title="예측 근거")
+
+            fig = px.bar(importance_df.sort_values(by='Importance', ascending=False), x="Importance", y="Feature", orientation='h', title="예측 근거")
             st.plotly_chart(fig, use_container_width=True)
 
     except Exception as e:

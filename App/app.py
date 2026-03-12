@@ -4,6 +4,7 @@ from typing import Union, List
 from pydantic import BaseModel, Field
 from loguru import logger
 from App.preprocess_data import preprocess
+from App.explain import compute_shap_values
 
 import pandas as pd
 import numpy as np
@@ -66,6 +67,8 @@ class PredictionInput(BaseModel):
 class ResponseModel(BaseModel):
     prediction_Id: object
     predict: object
+    explain_feature_labels: List[str]
+    explain_feature_values: List[float]
 
 @app.get('/', include_in_schema=False)
 async def redirect():
@@ -75,6 +78,8 @@ async def redirect():
 async def predict(input: PredictionInput):
     result = {
         'prediction_Id': str(uuid.uuid4()),
+        'explain_feature_labels': [],
+        'explain_feature_values': [],
         'predict': ""
     }
     input_df = pd.DataFrame([input.dict()])
@@ -86,5 +91,8 @@ async def predict(input: PredictionInput):
     logger.info(prediction)
 
     result['predict'] = prediction
+    result['explain_feature_labels'], result['explain_feature_values'] = compute_shap_values(model, input_df)
+
+    logger.info(result)
 
     return result

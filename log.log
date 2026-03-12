@@ -51,3 +51,313 @@
 2026-03-12 00:13:13.277 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
 0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
 2026-03-12 00:13:14.762 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:05:09.300 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:05:11.991 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:07:16.623 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:07:18.827 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:08:37.877 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:08:39.528 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:09:22.546 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:09:24.128 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:10:21.655 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:10:23.275 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:11:27.907 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:11:29.499 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:12:21.002 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:12:22.606 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:12:32.111 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:12:32.135 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:13:12.603 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:13:14.583 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:13:43.484 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:13:44.940 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:14:16.824 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:14:18.401 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:14:46.461 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:14:48.056 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:15:47.572 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer     Model    Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜드 스타렉스  11인승 왜건           오토       디젤  162475.0       일반              광주            9           11
+2026-03-12 16:15:49.139 | INFO     | App.app:predict:86 - [724.9287928]
+2026-03-12 16:49:33.627 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  100000.0       일반              서울            6           19
+2026-03-12 16:49:35.843 | INFO     | App.app:predict:86 - [1760.57666061]
+2026-03-12 16:54:11.560 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model          Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  가솔린 9인승 프레스티지           오토      가솔린  62231.0       일반              경기           11            4
+2026-03-12 16:54:13.798 | INFO     | App.app:predict:86 - [1724.03389059]
+2026-03-12 16:54:59.106 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model          Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  가솔린 9인승 프레스티지           오토      가솔린  62231.0       렌트              경기           11            4
+2026-03-12 16:54:59.123 | INFO     | App.app:predict:86 - [473.64300997]
+2026-03-12 16:55:43.961 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  150093.0       렌트              경기            8            6
+2026-03-12 16:55:43.979 | INFO     | App.app:predict:86 - [927.71784055]
+2026-03-12 16:55:51.425 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  150093.0       렌트              인천            8            6
+2026-03-12 16:55:51.443 | INFO     | App.app:predict:86 - [585.88244702]
+2026-03-12 16:58:33.660 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model          Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  가솔린 9인승 프레스티지           오토      가솔린  62231.0       일반              경기           11            4
+2026-03-12 16:58:33.678 | INFO     | App.app:predict:86 - [1724.03389059]
+2026-03-12 16:59:26.580 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  150093.0       일반              인천            8            6
+2026-03-12 16:59:26.601 | INFO     | App.app:predict:86 - [1859.70052383]
+2026-03-12 17:01:19.731 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age    encarDiagnosis
+0        None           엔카진단           기아  카니발 4세대  9인승 시그니처           오토       디젤  187161.0       일반              부산            4            5  EncarDiagnosisP0
+2026-03-12 17:04:11.191 | INFO     | App.app:predict:83 -   HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None  EncarDiagnosisP0           기아  카니발 4세대  9인승 시그니처           오토       디젤  187161.0       일반              부산            4            5
+2026-03-12 17:04:13.254 | INFO     | App.app:predict:86 - [2043.28043953]
+2026-03-12 17:05:10.769 | INFO     | App.app:predict:83 -   HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None  EncarDiagnosisP1           기아  카니발 4세대  9인승 시그니처           오토       디젤  17277.0       일반              부산            4            3
+2026-03-12 17:05:10.786 | INFO     | App.app:predict:86 - [2141.36839915]
+2026-03-12 17:06:46.817 | INFO     | App.app:predict:83 -   HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None  EncarDiagnosisP0           기아  카니발 4세대  9인승 시그니처           오토       디젤  187161.0       일반              부산            4            5
+2026-03-12 17:06:46.834 | INFO     | App.app:predict:86 - [2043.28043953]
+2026-03-12 17:13:43.200 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP0           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  100000.0       일반              경기            6           13
+2026-03-12 17:13:45.146 | INFO     | App.app:predict:86 - [1750.65283913]
+2026-03-12 17:13:54.785 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP0           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  110000.0       일반              경기            6           13
+2026-03-12 17:13:54.802 | INFO     | App.app:predict:86 - [1750.65283913]
+2026-03-12 17:14:03.091 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP0           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  120000.0       일반              경기            6           13
+2026-03-12 17:14:03.114 | INFO     | App.app:predict:86 - [1750.65283913]
+2026-03-12 17:14:10.591 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP0           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  150000.0       일반              경기            6           13
+2026-03-12 17:14:10.623 | INFO     | App.app:predict:86 - [1750.65283913]
+2026-03-12 17:14:58.836 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP0           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  200000.0       일반              경기            6           13
+2026-03-12 17:14:58.856 | INFO     | App.app:predict:86 - [1750.65283913]
+2026-03-12 17:15:09.265 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  200000.0       일반              경기            6           13
+2026-03-12 17:15:09.285 | INFO     | App.app:predict:86 - [1834.05266753]
+2026-03-12 17:15:31.350 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  200000.0       일반              경기            4           19
+2026-03-12 17:15:31.371 | INFO     | App.app:predict:86 - [1806.21242765]
+2026-03-12 17:15:37.952 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  200000.0       일반              경기            4           23
+2026-03-12 17:15:37.972 | INFO     | App.app:predict:86 - [1751.14556438]
+2026-03-12 17:15:44.085 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  200000.0       일반              경기            4            4
+2026-03-12 17:15:44.102 | INFO     | App.app:predict:86 - [1708.68963587]
+2026-03-12 17:15:49.849 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  200000.0       일반              경기            4           24
+2026-03-12 17:15:49.868 | INFO     | App.app:predict:86 - [1751.14556438]
+2026-03-12 17:15:55.977 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  200000.0       일반              경기            4            2
+2026-03-12 17:15:55.995 | INFO     | App.app:predict:86 - [1899.75705579]
+2026-03-12 17:16:01.811 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  200000.0       일반              경기            4           23
+2026-03-12 17:16:01.828 | INFO     | App.app:predict:86 - [1751.14556438]
+2026-03-12 17:16:07.331 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  200000.0       일반              경기            4            0
+2026-03-12 17:16:07.349 | INFO     | App.app:predict:86 - [1914.82618034]
+2026-03-12 17:16:12.968 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  200000.0       일반              경기            4            6
+2026-03-12 17:16:12.989 | INFO     | App.app:predict:86 - [1725.9052933]
+2026-03-12 17:16:17.633 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  200000.0       일반              경기            4           13
+2026-03-12 17:16:17.653 | INFO     | App.app:predict:86 - [1809.80638136]
+2026-03-12 17:16:56.370 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  50000.0       일반              경기            4           13
+2026-03-12 17:16:56.386 | INFO     | App.app:predict:86 - [1809.80638136]
+2026-03-12 17:17:03.203 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린     10.0       일반              경기            4           13
+2026-03-12 17:17:03.220 | INFO     | App.app:predict:86 - [3366.48257421]
+2026-03-12 17:17:17.667 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  60000.0       일반              경기            4           13
+2026-03-12 17:17:17.687 | INFO     | App.app:predict:86 - [1809.80638136]
+2026-03-12 17:17:26.100 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  80000.0       일반              경기            4           13
+2026-03-12 17:17:26.117 | INFO     | App.app:predict:86 - [1809.80638136]
+2026-03-12 17:17:38.219 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP2           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  80000.0       일반              경기            4           13
+2026-03-12 17:17:38.237 | INFO     | App.app:predict:86 - [1925.30840714]
+2026-03-12 17:17:49.829 | INFO     | App.app:predict:83 -   HomeService EncarDiagnosis Manufacturer    Model           Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None           None           기아  카니발 4세대  가솔린 1.6 터보 2WD           오토      가솔린  80000.0       일반              경기            4           13
+2026-03-12 17:17:49.845 | INFO     | App.app:predict:86 - [1809.80638136]
+2026-03-12 22:12:28.813 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            6           13
+2026-03-12 22:12:31.395 | INFO     | App.app:predict:86 - [1931.44915102]
+2026-03-12 22:12:41.428 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            6           24
+2026-03-12 22:12:41.456 | INFO     | App.app:predict:86 - [1753.11610109]
+2026-03-12 22:12:49.984 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            6           26
+2026-03-12 22:12:50.001 | INFO     | App.app:predict:86 - [1806.95829859]
+2026-03-12 22:13:09.173 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            6           25
+2026-03-12 22:13:09.192 | INFO     | App.app:predict:86 - [1806.95829859]
+2026-03-12 22:13:15.560 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            6            3
+2026-03-12 22:13:15.579 | INFO     | App.app:predict:86 - [1900.58617191]
+2026-03-12 22:13:23.401 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            6            2
+2026-03-12 22:13:23.420 | INFO     | App.app:predict:86 - [1901.29167602]
+2026-03-12 22:13:28.366 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            6            1
+2026-03-12 22:13:28.383 | INFO     | App.app:predict:86 - [2081.5640098]
+2026-03-12 22:13:37.839 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            6            9
+2026-03-12 22:13:37.856 | INFO     | App.app:predict:86 - [1724.85394667]
+2026-03-12 22:13:43.419 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            6           22
+2026-03-12 22:13:43.437 | INFO     | App.app:predict:86 - [1802.77397919]
+2026-03-12 22:13:53.943 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            6            6
+2026-03-12 22:13:53.962 | INFO     | App.app:predict:86 - [1762.13390833]
+2026-03-12 22:14:15.790 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  150000.0       일반              서울            6            6
+2026-03-12 22:14:15.807 | INFO     | App.app:predict:86 - [1762.13390833]
+2026-03-12 22:14:23.070 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  200000.0       일반              서울            6            6
+2026-03-12 22:14:23.086 | INFO     | App.app:predict:86 - [1762.13390833]
+2026-03-12 22:14:32.820 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  200000.0       일반              서울           11            6
+2026-03-12 22:14:32.843 | INFO     | App.app:predict:86 - [1782.54413925]
+2026-03-12 22:14:39.676 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  200000.0       일반              서울            8            6
+2026-03-12 22:14:39.695 | INFO     | App.app:predict:86 - [1804.67466643]
+2026-03-12 22:15:00.790 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP2           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            8           11
+2026-03-12 22:15:00.815 | INFO     | App.app:predict:86 - [1771.75415697]
+2026-03-12 22:15:10.166 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            8           11
+2026-03-12 22:15:10.184 | INFO     | App.app:predict:86 - [1717.45480108]
+2026-03-12 22:15:19.049 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP0           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            8           11
+2026-03-12 22:15:19.066 | INFO     | App.app:predict:86 - [1661.20350017]
+2026-03-12 22:15:27.424 | INFO     | App.app:predict:83 -   HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None  EncarDiagnosisP0           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            8           11
+2026-03-12 22:15:27.441 | INFO     | App.app:predict:86 - [1642.41934776]
+2026-03-12 22:15:52.473 | INFO     | App.app:predict:83 -   HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None  EncarDiagnosisP0           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            8            3
+2026-03-12 22:15:52.491 | INFO     | App.app:predict:86 - [1976.01137205]
+2026-03-12 22:15:58.227 | INFO     | App.app:predict:83 -   HomeService    EncarDiagnosis Manufacturer    Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None  EncarDiagnosisP0           기아  카니발 4세대  9인승 노블레스           오토       디젤  100000.0       일반              서울            8           22
+2026-03-12 22:15:58.248 | INFO     | App.app:predict:86 - [1762.57751748]
+2026-03-12 22:31:44.990 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer   Model          Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP0           기아  Others  가솔린 9인승 프레스티지           오토      가솔린  200000.0       일반              경기            6           13
+2026-03-12 22:31:47.530 | INFO     | App.app:predict:86 - [523.62073988]
+2026-03-12 22:54:09.613 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer      Model Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  쏘나타 (DN8)   2.0           오토      가솔린  118930.0       일반              경기            3            6
+2026-03-12 22:54:11.792 | INFO     | App.app:predict:86 - [1132.89997965]
+2026-03-12 22:55:13.197 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer      Model           Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  모하비 더 마스터  디젤 3.0 4WD 7인승           오토       디젤  22220.0       일반              서울            4            3
+2026-03-12 22:55:13.217 | INFO     | App.app:predict:86 - [2439.43810875]
+2026-03-12 22:55:51.486 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer      Model           Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           기아  모하비 더 마스터  디젤 3.0 4WD 7인승           오토       디젤  22220.0       일반              서울            4            3
+2026-03-12 22:55:51.505 | INFO     | App.app:predict:86 - [2439.43810875]
+2026-03-12 22:58:06.746 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer      Model       Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  싼타페 더 프라임  디젤 2.0 4WD           오토       디젤  126792.0       일반              대구            8           10
+2026-03-12 22:58:06.764 | INFO     | App.app:predict:86 - [768.61095544]
+2026-03-12 22:58:13.902 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer      Model       Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  싼타페 더 프라임  디젤 2.0 4WD           오토       디젤  126792.0       일반              대구            8           10
+2026-03-12 22:58:13.924 | INFO     | App.app:predict:86 - [768.61095544]
+2026-03-12 22:58:38.957 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer      Model       Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP2           현대  싼타페 더 프라임  디젤 2.0 4WD           오토       디젤  126792.0       일반              대구            8           10
+2026-03-12 22:58:38.974 | INFO     | App.app:predict:86 - [773.38067817]
+2026-03-12 22:58:45.468 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer      Model       Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  싼타페 더 프라임  디젤 2.0 4WD           오토       디젤  126792.0       일반              대구            8           10
+2026-03-12 22:58:45.486 | INFO     | App.app:predict:86 - [768.61095544]
+2026-03-12 22:59:46.355 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model       Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  더 뉴 싼타페  디젤 2.2 2WD           오토       디젤  45349.0       일반              경기            4            4
+2026-03-12 22:59:46.372 | INFO     | App.app:predict:86 - [1874.74860075]
+2026-03-12 23:02:48.577 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model         Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP0           기아  카니발 4세대  가솔린 7인승 시그니처           오토      가솔린  149951.0       일반              경기            5            5
+2026-03-12 23:02:48.596 | INFO     | App.app:predict:86 - [2115.0577731]
+2026-03-12 23:03:51.118 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model       Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  더 뉴 싼타페  디젤 2.2 2WD           오토       디젤  59832.0       일반              경기           12            6
+2026-03-12 23:03:51.136 | INFO     | App.app:predict:86 - [1684.14557255]
+2026-03-12 23:05:29.408 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer      Model        Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  그랜저 (GN7)  2.5 가솔린 2WD           오토      가솔린  42374.0       일반              경기           12            3
+2026-03-12 23:05:29.425 | INFO     | App.app:predict:86 - [1900.07545518]
+2026-03-12 23:12:13.565 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model   Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1           현대  스타리아  Others           오토       디젤     68.0       일반              부산           10            3
+2026-03-12 23:12:13.585 | INFO     | App.app:predict:86 - [4418.37816825]
+2026-03-12 23:46:49.693 | INFO     | App.app:predict:83 -   HomeService    EncarDiagnosis Manufacturer   Model       Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None  EncarDiagnosisP1           현대  싼타페 TM  디젤 2.0 4WD           오토       디젤  102653.0       일반              경기           11            8
+2026-03-12 23:46:52.169 | INFO     | App.app:predict:86 - [1946.28382167]
+2026-03-12 23:47:36.462 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model        Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1   KG모빌리티(쌍용)   토레스  가솔린 1.5 2WD           오토      가솔린  36871.0       일반              부산            2            3
+2026-03-12 23:47:36.479 | INFO     | App.app:predict:86 - [2555.22843238]
+2026-03-12 23:47:46.807 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model        Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1   KG모빌리티(쌍용)   토레스  가솔린 1.5 2WD           오토      가솔린  46871.0       일반              부산            2            3
+2026-03-12 23:47:46.827 | INFO     | App.app:predict:86 - [2297.85264617]
+2026-03-12 23:47:53.029 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model        Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1   KG모빌리티(쌍용)   토레스  가솔린 1.5 2WD           오토      가솔린  56871.0       일반              부산            2            3
+2026-03-12 23:47:53.046 | INFO     | App.app:predict:86 - [2262.30560229]
+2026-03-12 23:47:59.049 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model        Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1   KG모빌리티(쌍용)   토레스  가솔린 1.5 2WD           오토      가솔린  106871.0       일반              부산            2            3
+2026-03-12 23:47:59.069 | INFO     | App.app:predict:86 - [1985.89851214]
+2026-03-12 23:48:05.933 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model        Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1   KG모빌리티(쌍용)   토레스  가솔린 1.5 2WD           오토      가솔린  156871.0       일반              부산            2            3
+2026-03-12 23:48:05.949 | INFO     | App.app:predict:86 - [1871.45898795]
+2026-03-12 23:48:13.218 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model        Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1   KG모빌리티(쌍용)   토레스  가솔린 1.5 2WD           오토      가솔린  156871.0       일반              부산            2           20
+2026-03-12 23:48:13.234 | INFO     | App.app:predict:86 - [1264.13752161]
+2026-03-12 23:48:20.936 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer Model        Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP2   KG모빌리티(쌍용)   토레스  가솔린 1.5 2WD           오토      가솔린  156871.0       일반              부산            2           20
+2026-03-12 23:48:20.955 | INFO     | App.app:predict:86 - [1293.24852291]
+2026-03-12 23:53:43.337 | INFO     | App.app:predict:83 -   HomeService    EncarDiagnosis Manufacturer Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None  EncarDiagnosisP1         제네시스   G70  2.2D AWD           오토       디젤  155541.0       일반              부산            5            6
+2026-03-12 23:53:43.355 | INFO     | App.app:predict:86 - [2132.34705596]
+2026-03-12 23:53:53.819 | INFO     | App.app:predict:83 -   HomeService    EncarDiagnosis Manufacturer Model     Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None  EncarDiagnosisP1         제네시스   G70  2.2D AWD           오토       디젤  195541.0       일반              부산            5            6
+2026-03-12 23:53:53.836 | INFO     | App.app:predict:86 - [1711.94771519]
+2026-03-12 23:57:05.764 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model         Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1         제네시스  GV80 쿠페  2.5T 가솔린 AWD           오토       디젤  195541.0       일반              부산            5            6
+2026-03-12 23:57:07.904 | INFO     | App.app:predict:86 - [3415.94466887]
+2026-03-12 23:57:15.748 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model         Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1         제네시스  GV80 쿠페  2.5T 가솔린 AWD           오토       디젤  195541.0       일반              부산            5           23
+2026-03-12 23:57:15.765 | INFO     | App.app:predict:86 - [1859.59884457]
+2026-03-12 23:57:21.368 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model         Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1         제네시스  GV80 쿠페  2.5T 가솔린 AWD           오토       디젤  195541.0       일반              부산            5            5
+2026-03-12 23:57:21.385 | INFO     | App.app:predict:86 - [3525.00213826]
+2026-03-12 23:57:30.812 | INFO     | App.app:predict:83 -    HomeService    EncarDiagnosis Manufacturer    Model         Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1         제네시스  GV80 쿠페  2.5T 가솔린 AWD           오토       디젤  10000.0       일반              부산            5            5
+2026-03-12 23:57:30.829 | INFO     | App.app:predict:86 - [4567.50683234]
+2026-03-13 00:24:46.038 | INFO     | App.app:predict:86 -    HomeService    EncarDiagnosis Manufacturer Model            Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1    르노코리아(삼성)   XM3  1.3 TCe RE 시그니처           오토      가솔린  115809.0       일반              경기            5            5
+2026-03-13 00:24:48.344 | INFO     | App.app:predict:89 - [1303.92181748]
+2026-03-13 00:27:01.231 | INFO     | App.app:predict:86 -    HomeService    EncarDiagnosis Manufacturer Model            Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1    르노코리아(삼성)   XM3  1.3 TCe RE 시그니처           오토      가솔린  115809.0       일반              경기            5            5
+2026-03-13 00:27:03.415 | INFO     | App.app:predict:89 - [1303.92181748]
+2026-03-13 00:27:19.847 | INFO     | App.app:predict:94 - {'prediction_Id': '90039d60-9b5d-460b-ba54-277c7e206867', 'explain_feature_labels': ['HomeService', 'EncarDiagnosis', 'Manufacturer', 'Model', 'Badge', 'Transmission', 'FuelType', 'Mileage', 'SellType', 'OfficeCityState', 'Model_Month', 'Vehicle_Age'], 'explain_feature_values': [3.956563333258049, -3.1818584332140265, -224.7234934214894, -578.3144615879171, 21.90870448060362, -2.892487969457255, 14.753470899336126, 5.836764352416826, -22.330096720861455, -202.39723639304282, 4.893389362652032, 140.73106420207668], 'predict': '[1303.92181748]'}
+2026-03-13 00:32:51.496 | INFO     | App.app:predict:84 -    HomeService    EncarDiagnosis Manufacturer Model   Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1    르노코리아(삼성)   XM3  Others           오토      가솔린  44259.0       일반              인천           12            6
+2026-03-13 00:32:53.641 | INFO     | App.app:predict:87 - [1462.95781314]
+2026-03-13 00:33:10.607 | INFO     | App.app:predict:92 - {'prediction_Id': '4868c29e-429f-4669-8b1e-44c7c5b59dc7', 'predict': '[1462.95781314]', 'explain_feature_labels': ['HomeService', 'EncarDiagnosis', 'Manufacturer', 'Model', 'Badge', 'Transmission', 'FuelType', 'Mileage', 'SellType', 'OfficeCityState', 'Model_Month', 'Vehicle_Age'], 'explain_feature_values': [14.37730866426008, -2.315361069231146, -300.0091068413773, -637.5617096412635, -82.08031519917884, -7.992973319212282, 16.316087618163984, 6.9387136204927335, -26.74044475201157, 175.31301207279606, 6.682394276122014, 154.34871233797998]}
+2026-03-13 00:38:46.572 | INFO     | App.app:predict:84 -   HomeService    EncarDiagnosis Manufacturer Model   Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None  EncarDiagnosisP1    르노코리아(삼성)   QM6  Others           오토      가솔린  115354.0       일반              부산           12            9
+2026-03-13 00:38:48.757 | INFO     | App.app:predict:87 - [1298.04062232]
+2026-03-13 00:39:05.262 | INFO     | App.app:predict:92 - {'prediction_Id': '615f3b10-b496-406d-96f0-fdadd60c1f9c', 'predict': '[1298.04062232]', 'explain_feature_labels': ['HomeService', 'EncarDiagnosis', 'Manufacturer', 'Model', 'Badge', 'Transmission', 'FuelType', 'Mileage', 'SellType', 'OfficeCityState', 'Model_Month', 'Vehicle_Age'], 'explain_feature_values': [-0.4321122643595135, -4.749798862023983, -144.18544756969496, -666.561013152173, -38.742692636603046, 0.17177267341747932, 6.473960030459737, 6.485471052012043, 4.298345901370421, -92.52321234146858, 54.46970312725715, 27.65415098570985]}
+2026-03-13 00:42:15.286 | INFO     | App.app:predict:84 -    HomeService    EncarDiagnosis Manufacturer    Model                Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP1    르노코리아(삼성)  더 뉴 QM6  2.0 GDe RE 시그니처 2WD           오토      가솔린  42908.0       일반              서울            5            8
+2026-03-13 00:42:17.423 | INFO     | App.app:predict:87 - [1803.59398224]
+2026-03-13 00:42:33.456 | INFO     | App.app:predict:92 - {'prediction_Id': '113db092-d33c-42e0-9679-70d1192b0aeb', 'predict': '[1803.59398224]', 'explain_feature_labels': ['HomeService', 'EncarDiagnosis', 'Manufacturer', 'Model', 'Badge', 'Transmission', 'FuelType', 'Mileage', 'SellType', 'OfficeCityState', 'Model_Month', 'Vehicle_Age'], 'explain_feature_values': [0.34060394791141024, -6.901897665376848, -139.13304886777533, -556.5846800035047, 74.46715130102653, 0.716100713080821, 12.534039931017395, 7.60916544898738, -14.70876359585575, 253.34857803300477, -12.946697452336828, 39.1719350729361]}
+2026-03-13 00:46:54.927 | INFO     | App.app:predict:84 -    HomeService    EncarDiagnosis Manufacturer Model   Badge Transmission     FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP0    르노코리아(삼성)   SM6  Others           오토  LPG(일반인 구입)  104678.0       일반              인천            9            8
+2026-03-13 00:46:56.984 | INFO     | App.app:predict:87 - [775.5939043]
+2026-03-13 00:47:13.756 | INFO     | App.app:predict:92 - {'prediction_Id': '1d4bbf0b-3ac5-4d2c-b796-9c9ba45af9e9', 'predict': '[775.5939043]', 'explain_feature_labels': ['HomeService', 'EncarDiagnosis', 'Manufacturer', 'Model', 'Badge', 'Transmission', 'FuelType', 'Mileage', 'SellType', 'OfficeCityState', 'Model_Month', 'Vehicle_Age'], 'explain_feature_values': [-6.919971981415252, -2.4933140753687013, -95.22907431219434, -1022.0112213510995, -101.52224581740772, -1.1800953736761026, -34.80760763693195, 6.8368000393487245, -18.044315574286195, -118.96535205411148, 9.009867272772132, 15.238939793292936]}
+2026-03-13 00:48:59.762 | INFO     | App.app:predict:84 -    HomeService    EncarDiagnosis Manufacturer Model   Badge Transmission     FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0  EncarMeetgo  EncarDiagnosisP0    르노코리아(삼성)   SM6  Others           오토  LPG(일반인 구입)  104678.0       일반              인천            9            8
+2026-03-13 00:49:01.234 | INFO     | App.app:predict:87 - [775.5939043]
+2026-03-13 00:49:18.364 | INFO     | App.app:predict:92 - {'prediction_Id': 'b9cae168-156c-4cef-bc1b-87d70998d9c5', 'predict': '[775.5939043]', 'explain_feature_labels': ['HomeService', 'EncarDiagnosis', 'Manufacturer', 'Model', 'Badge', 'Transmission', 'FuelType', 'Mileage', 'SellType', 'OfficeCityState', 'Model_Month', 'Vehicle_Age'], 'explain_feature_values': [-6.919971981415252, -2.4933140753687013, -95.22907431219434, -1022.0112213510995, -101.52224581740772, -1.1800953736761026, -34.80760763693195, 6.8368000393487245, -18.044315574286195, -118.96535205411148, 9.009867272772132, 15.238939793292936]}
+2026-03-13 00:57:41.553 | INFO     | App.app:predict:88 -   HomeService    EncarDiagnosis Manufacturer Model   Badge Transmission FuelType   Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None  EncarDiagnosisP1    르노코리아(삼성)   QM6  Others           오토      가솔린  115354.0       일반              부산           12            9
+2026-03-13 00:57:43.833 | INFO     | App.app:predict:91 - [1298.04062232]
+2026-03-13 00:58:05.606 | INFO     | App.app:predict:96 - {'prediction_Id': 'e6f7508e-bc43-4b3a-8201-7d9de44f0113', 'explain_feature_labels': ['HomeService', 'EncarDiagnosis', 'Manufacturer', 'Model', 'Badge', 'Transmission', 'FuelType', 'Mileage', 'SellType', 'OfficeCityState', 'Model_Month', 'Vehicle_Age'], 'explain_feature_values': [-0.4321122643595135, -4.749798862023983, -144.18544756969496, -666.561013152173, -38.742692636603046, 0.17177267341747932, 6.473960030459737, 6.485471052012043, 4.298345901370421, -92.52321234146858, 54.46970312725715, 27.65415098570985], 'predict': '[1298.04062232]'}
+2026-03-13 01:00:08.795 | INFO     | App.app:predict:88 -   HomeService    EncarDiagnosis Manufacturer      Model   Badge Transmission FuelType  Mileage SellType OfficeCityState  Model_Month  Vehicle_Age
+0        None  EncarDiagnosisP0    쉐보레(GM대우)  트랙스 크로스오버  1.2 RS           오토      가솔린  60433.0       일반              부산            8            3
+2026-03-13 01:00:11.002 | INFO     | App.app:predict:91 - [2331.51178401]
+2026-03-13 01:00:26.878 | INFO     | App.app:predict:96 - {'prediction_Id': '9a3003c2-6211-422e-abe5-39cce58e9359', 'explain_feature_labels': ['HomeService', 'EncarDiagnosis', 'Manufacturer', 'Model', 'Badge', 'Transmission', 'FuelType', 'Mileage', 'SellType', 'OfficeCityState', 'Model_Month', 'Vehicle_Age'], 'explain_feature_values': [-0.9142360526812401, 28.783329627341175, -10.59628560299849, -346.97546025556954, -128.95672393034243, 3.0614411924323948, 9.221228468884462, 5.9495239496891035, 21.458186687986082, 225.86755135684618, -8.282753369165457, 387.214486561652], 'predict': '[2331.51178401]'}
