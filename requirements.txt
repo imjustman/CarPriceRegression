@@ -13,3 +13,4 @@ loguru
 skops
 pyYAML
 uvicorn
+streamlit
