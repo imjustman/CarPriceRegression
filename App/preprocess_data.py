@@ -18,5 +18,19 @@ def preprocess(df, category_map):
 
     df.drop(['Year', 'Model_Year'], axis=1, inplace=True)
 
+    if df['HomeService'].item() == '없음':
+        df['HomeService'] = 'None'
+    else:
+        df['HomeService'] = 'EncarMeetgo'
+
+    if df['EncarDiagnosis'].item() == '엔카진단':
+        df['EncarDiagnosis'] = 'EncarDiagnosisP0'
+    elif df['EncarDiagnosis'].item() == '엔카진단+':
+        df['EncarDiagnosis'] = 'EncarDiagnosisP1'
+    elif df['EncarDiagnosis'].item() == '엔카진단++':
+        df['EncarDiagnosis'] = 'EncarDiagnosisP2'
+    else:
+        df['EncarDiagnosis'] = 'None'
+
 
     return df
