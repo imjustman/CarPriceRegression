@@ -14,3 +14,4 @@ skops
 pyYAML
 uvicorn
 streamlit
+shap
