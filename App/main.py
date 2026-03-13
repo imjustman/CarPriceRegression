@@ -65,7 +65,7 @@ if predict_button:
 
     try:
         with st.spinner('AI 모델이 가격을 계산 중입니다'):
-            response = requests.post('http://localhost:8000/predict', json=input_data)
+            response = requests.post('http://3.39.190.247:8003/predict', json=input_data)
             response.raise_for_status()
             result = response.json()
 
