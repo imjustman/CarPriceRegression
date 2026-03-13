@@ -17,25 +17,9 @@ with st.sidebar:
 
     HomeService = st.selectbox('엔카 믿고 등록 여부', ['엔카믿고', '없음'])
     EncarDiagnosis = st.selectbox('엔카 진단 등록 여부', ['엔카진단', '엔카진단+', '엔카진단++', '없음'])
-    brand = st.selectbox("브랜드", ['기아', '현대', '제네시스', 'KG모빌리티(쌍용)', '쉐보레(GM대우)', '르노코리아(삼성)', '기타 제조사'])
+    brand = st.selectbox("브랜드", df['Manufacturer'].unique().tolist())
 
-    model_list = []
-    if brand == '기아':
-        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
-    elif brand == '현대':
-        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
-    elif brand == '제네시스':
-        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
-    elif brand == 'KG모빌리티(쌍용)':
-        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
-    elif brand == '쉐보레(GM대우)':
-        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
-    elif brand == '르노코리아(삼성)':
-        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
-    else:
-        model_list = df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist()
-
-    model = st.selectbox('모델', model_list + ['기타'])
+    model = st.selectbox('모델', df.loc[df['Manufacturer'] == brand, 'Model'].unique().tolist() + ['기타'])
 
     badge_list = []
     if model == '기타':
@@ -45,10 +29,10 @@ with st.sidebar:
 
     badge = st.selectbox('배지', badge_list + ['기타'])
 
-    transmission = st.selectbox('변속기', ['오토', '세미오토', '수동', 'CVT'])
-    fuel_type = st.selectbox('연료', ['가솔린', '디젤', '가솔린+전기', 'LPG(일반인 구입)', '전기', '수소', '가솔린+LPG', 'LPG+전기'])
-    sell_type = st.selectbox('판매방식', ['일반', '렌트', '리스'])
-    office_city = st.selectbox('지역', ['경기', '서울', '부산', '대구', '광주', '대전', '인천', '전북', '충남', '경남', '충북', '울산', '경북', '전남', '강원', '제주'])
+    transmission = st.selectbox('변속기', df['Transmission'].unique().tolist())
+    fuel_type = st.selectbox('연료', df['FuelType'].unique().tolist())
+    sell_type = st.selectbox('판매방식', df['SellType'].unique().tolist())
+    office_city = st.selectbox('지역', df['OfficeCityState'].unique().tolist())
 
     model_year = str(st.slider('연식', 2000, 2026, 2013))
     model_month = st.slider('월', 1, 12, 6)
@@ -57,7 +41,7 @@ with st.sidebar:
     Year = float(model_year_month + ".0")
 
 
-    mileage = float(st.number_input('주행거리 (km)', min_value=0, value=200000, step=1000))
+    mileage = float(st.number_input('주행거리 (km)', min_value=0, value=300000, step=1000))
 
 
     predict_button = st.button('가격 예측하기')
@@ -95,11 +79,11 @@ if predict_button:
         with col2:
             st.info("### 예측 근거")
             importance_df = pd.DataFrame({
-                'Feature': result.get('explain_feature_labels'),
-                'Importance': result.get('explain_feature_values')
+                '특성': result.get('explain_feature_labels'),
+                '기여도': result.get('explain_feature_values')
             })
 
-            fig = px.bar(importance_df.sort_values(by='Importance', ascending=False), x="Importance", y="Feature", orientation='h', title="예측 근거")
+            fig = px.bar(importance_df.sort_values(by='기여도', ascending=False), x="기여도", y="특성", orientation='h', title="예측 근거")
             st.plotly_chart(fig, use_container_width=True)
 
     except Exception as e:
