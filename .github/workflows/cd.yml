@@ -1,1 +1,24 @@
+name: CD
 
+on:
+  workflow_dispatch:
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: LoginDockerHub
+        run: echo "${{secrets.DOCKER_PASSWORD}}" | docker login -u "${{secrets.DOCKER_USERNAME}}" --password-stdin
+
+      - name: DockerBuild
+        run: docker build -t carpriceregression .
+
+      - name: DockerTag
+        run: docker tag carpriceregression ${{secrets.DOCKER_USERNAME}}/carpriceregression:latest
+
+      - name: Push Image
+        run: docker push ${{secrets.DOCKER_USERNAME}}/carpriceregression:latest
