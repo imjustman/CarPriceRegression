@@ -34,4 +34,4 @@ jobs:
             sudo docker rm -f capriceregression
             sudo docker rmi carpriceregression
             sudo docker pull ${{secrets.DOCKER_USERNAME}}/carpriceregression:latest
-            sudo docker run -d -p 8004:8502 carpriceregression:latest
+            sudo docker run -d -p 8004:8502 ${{secrets.DOCKER_USERNAME}}carpriceregression:latest
