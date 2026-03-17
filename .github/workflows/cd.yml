@@ -22,3 +22,15 @@ jobs:
 
       - name: Push Image
         run: docker push ${{secrets.DOCKER_USERNAME}}/carpriceregression:latest
+
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{secrets.EC2_HOST}}
+          username: ${{secrets.EC2_USER}}
+          key: $${{secrets.EC2_KEY}}
+
+          script: |
+            sudo docker rm -f capriceregression
+            sudo docker pull ${{secrets.DOCKER_USERNAME}}/carpriceregression:latest
+            sudo docker run -d -p 8004:8502 carpriceregression:latest
