@@ -12,6 +12,7 @@ def compute_shap_values(pipeline, input_df):
 
     explainer = get_explainer(model)
     shap_values = explainer(X_transformed)[0].values.tolist()
-    feature_labels = pipeline.named_steps['preprocess'].feature_names_in_.tolist()
+    # feature_labels = pipeline.named_steps['preprocess'].feature_names_in_.tolist()
+    feature_labels = ['모델', '연식', '브랜드', '배지', '판매방식', '엔카진단', '엔카믿고', '월', '변속기', '주행거리 (km)', '연료', '지역']
 
     return feature_labels, shap_values
