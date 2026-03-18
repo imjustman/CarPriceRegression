@@ -31,7 +31,15 @@ jobs:
           key: ${{secrets.EC2_KEY}}
 
           script: |
+            sudo fuser -k 8003/tcp || true
+            sudo fuser -k 8004/tcp || true
+            sudo docker stop $(sudo docker ps -q --filter "publish=8003") 2>/dev/null || true
+            sudo docker stop $(sudo docker ps -q --filter "publish=8004") 2>/dev/null || true
+            
+            sudo docker system prune -f 
+            
             sudo docker rm -f ${{secrets.DOCKER_USERNAME}}/capriceregression:latest
             sudo docker rmi ${{secrets.DOCKER_USERNAME}}/carpriceregression:latest
+            
             sudo docker pull ${{secrets.DOCKER_USERNAME}}/carpriceregression:latest
             sudo docker run -d -p 8004:8502 -p 8003:8003 ${{secrets.DOCKER_USERNAME}}/carpriceregression:latest
