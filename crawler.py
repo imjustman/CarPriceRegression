@@ -1,4 +1,6 @@
 from tqdm import tqdm
+from datetime import datetime
+from zoneinfo import ZoneInfo
 import requests
 import pandas as pd
 import time
@@ -6,7 +8,7 @@ import os
 
 year = time.localtime().tm_year
 month = time.localtime().tm_mon
-day = time.localtime().tm_mday
+day = datetime.now(ZoneInfo('Asia/Seoul')).strftime('%d')
 
 file_name = 'encar_data' + f'_{year}_{month}_{day}.csv'
 
