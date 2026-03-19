@@ -22,5 +22,13 @@ jobs:
       - name: Train
         run: python train.py
 
+      - name: Evaluation
+        env:
+          REPO_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        run: |
+          echo "## Model Metrics" > report.md
+          cat ./Results/metrics.txt >> report.md
+          cml comment create report.md
+
 
 

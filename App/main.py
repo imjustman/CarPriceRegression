@@ -1,9 +1,15 @@
+from pathlib import Path
+
 import streamlit as st
 import requests
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv('Data/encar_data.csv')
+# dir_data_path = str(max(Path('./Data').glob('*.csv'), key=lambda p: p.stat().st_mtime))
+dir_data_path = str(max([f for f in Path('./Data').glob('*.csv') if 'pre' not in f.name], key=lambda p: p.stat().st_mtime))
+
+df = pd.read_csv(dir_data_path)
+print(df.columns)
 st.set_page_config(page_title='ML Model Predictor', layout='wide')
 
 st.title("중고차 가격 예측 서비스 (Encar 기반)")
@@ -65,7 +71,8 @@ if predict_button:
 
     try:
         with st.spinner('AI 모델이 가격을 계산 중입니다'):
-            response = requests.post('http://localhost:8003/predict', json=input_data)
+            # response = requests.post('http://localhost:8003/predict', json=input_data)
+            response = requests.post('http://localhost:8000/predict', json=input_data)
             response.raise_for_status()
             result = response.json()
 

@@ -1,8 +1,14 @@
-import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from pathlib import Path
+
+import numpy as np
+import pandas as pd
 import joblib
 import time
 import tqdm
+import os
+
 
 dir_data_path = Path('./Data')
 latest_data_file = max(dir_data_path.glob('*.csv'), key=lambda p: p.stat().st_mtime)
@@ -52,9 +58,26 @@ df.drop(['Year', 'Model_Year'], axis=1, inplace=True)
 X = df.drop(['Price', 'Id'], axis=1)
 y = df['Price']
 
+X.to_csv(f'./Data/pre_encar_data_{time.localtime().tm_year}_{time.localtime().tm_mon}_{time.localtime().tm_mday}.csv', index=False, encoding='utf-8-sig')
+
+train_X, valid_X, train_y, valid_y = train_test_split(X, y, shuffle=True, test_size=0.2, random_state=42)
 model = joblib.load(latest_model_file)
 model.set_params(preprocess__target_encoder__targetencoder__smooth=25.0)
 model.set_params(preprocess__target_encoder__targetencoder__categories='auto')
+
+model.fit(train_X, train_y)
+
+preds = model.predict(valid_X)
+
+rmse = np.sqrt(mean_squared_error(valid_y, preds))
+mae = mean_absolute_error(valid_y, preds)
+r2 = r2_score(valid_y, preds)
+
+file_path = os.path.join('./Results', 'metrics.txt')
+with open(file_path, 'w', encoding='utf-8') as f:
+    f.write(f"RMSE : {rmse:.4f}\n")
+    f.write(f"MAE : {mae:.4f}\n")
+    f.write(f"R2 : {r2:.4f}\n")
 
 model.fit(X, y)
 

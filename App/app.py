@@ -5,6 +5,7 @@ from pydantic import BaseModel, Field
 from loguru import logger
 from App.preprocess_data import preprocess
 from App.explain import compute_shap_values
+from pathlib import Path
 
 import pandas as pd
 import numpy as np
@@ -35,6 +36,13 @@ CONFIG_PATH = './config_prod.yml'
 
 with open(CONFIG_PATH, 'r', encoding='utf-8') as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.SafeLoader)
+
+config['MODEL_DIR'] = str(max(Path('./Model').glob('*.pkl'), key=lambda p: p.stat().st_mtime))
+config['CATEGORY_MAP_DIR'] = str(max(Path('./Artifacts').glob('*.pkl'), key=lambda p: p.stat().st_mtime))
+
+with open(CONFIG_PATH, 'w', encoding='utf-8') as ymlfile:
+    yaml.dump(config, ymlfile, allow_unicode=True, default_flow_style=False, sort_keys=False)
+
 
 MODEL_DIR = config['MODEL_DIR']
 CATEGORY_MAP_DIR = config['CATEGORY_MAP_DIR']
