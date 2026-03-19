@@ -11,7 +11,7 @@ import os
 
 
 dir_data_path = Path('./Data')
-latest_data_file = max(dir_data_path.glob('*.csv'), key=lambda p: p.stat().st_mtime)
+latest_data_file = max([f for f in dir_data_path.glob('*.csv') if 'pre' not in f.name], key=lambda p: p.stat().st_mtime)
 
 dir_model_path = Path('./Model')
 latest_model_file = max(dir_model_path.glob('*.pkl'), key=lambda p: p.stat().st_mtime)
@@ -55,10 +55,10 @@ df['Model_Month'] = df['Year'].apply(lambda x: x[4:]).astype(int)
 df['Vehicle_Age'] = time.localtime().tm_year - df['Model_Year']
 df.drop(['Year', 'Model_Year'], axis=1, inplace=True)
 
+df.to_csv(f'./Data/pre_encar_data_{time.localtime().tm_year}_{time.localtime().tm_mon}_{time.localtime().tm_mday}.csv', index=False, encoding='utf-8-sig')
+
 X = df.drop(['Price', 'Id'], axis=1)
 y = df['Price']
-
-X.to_csv(f'./Data/pre_encar_data_{time.localtime().tm_year}_{time.localtime().tm_mon}_{time.localtime().tm_mday}.csv', index=False, encoding='utf-8-sig')
 
 train_X, valid_X, train_y, valid_y = train_test_split(X, y, shuffle=True, test_size=0.2, random_state=42)
 model = joblib.load(latest_model_file)
