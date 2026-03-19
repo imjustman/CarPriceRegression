@@ -1,0 +1,4 @@
+## Model Metrics
+RMSE : 84.9064
+MAE : 33.7564
+R2 : 0.9957
