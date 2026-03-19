@@ -1,5 +1,9 @@
 name: CI
 on:
+  workflow_run:
+    workflows: ["Data Crawling"]
+    types:
+      - completed
   workflow_dispatch:
 
 
