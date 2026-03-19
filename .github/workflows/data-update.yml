@@ -1,0 +1,33 @@
+name: Data Crawling
+
+on:
+  shcedule:
+    - cron: '0 0 * * *'
+
+  workflow_dispatch:
+
+permissions: write-all
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Packages
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Data Crawling
+        run: python crawler.py
+
+      - name: Commit and Push
+        env:
+          NAME: ${{secrets.USER_NAME}}
+          EMAIL: ${{secrets.USER_EMAIL}}
+        run: | 
+          git config --global user.name "$NAME"
+          git config --global user.email "$EMAIL"
+          git add Data/
+          git commit -m "Auto Data Crawling"
+          git push
