@@ -16,9 +16,6 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Format
-        run: black *.py
-
       - name: Train
         run: python train.py
 
