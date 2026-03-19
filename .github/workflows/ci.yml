@@ -30,5 +30,13 @@ jobs:
           cat ./Results/metrics.txt >> report.md
           cml comment create report.md
 
-
+      - name: Update Branch
+        env:
+          NAME: ${{secrets.USER_NAME}}
+          EMAIL: ${{secrets.USER_EMAIL}}
+        run: |
+          git config --global user.name "$NAME"
+          git config --global user.email "$EMAIL"
+          git commit -am "Update with new results"
+          git push --force origin HEAD:update
 
