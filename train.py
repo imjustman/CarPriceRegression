@@ -18,6 +18,9 @@ latest_data_file = max([f for f in dir_data_path.glob('*.csv') if 'pre' not in f
 dir_model_path = Path('./Model')
 latest_model_file = max(dir_model_path.glob('*.pkl'), key=lambda p: p.stat().st_mtime)
 
+now = datetime.now(ZoneInfo("Asia/Seoul"))
+date_str = now.strftime('%Y_%m_%d')
+
 df = pd.read_csv(latest_data_file)
 
 def make_rare_label(df):
@@ -46,7 +49,7 @@ def remove_outliers(df, col):
 
 rare_label_index, df = make_rare_label(df)
 
-joblib.dump(rare_label_index, f"./Artifacts/category_map_{time.localtime().tm_year}_{time.localtime().tm_mon}_{datetime.now(ZoneInfo('Asia/Seoul')).strftime('%d')}.pkl")
+joblib.dump(rare_label_index, f"./Artifacts/category_map_{date_str}.pkl")
 
 df = remove_outliers(df, 'Price')
 
@@ -57,7 +60,7 @@ df['Model_Month'] = df['Year'].apply(lambda x: x[4:]).astype(int)
 df['Vehicle_Age'] = time.localtime().tm_year - df['Model_Year']
 df.drop(['Year', 'Model_Year'], axis=1, inplace=True)
 
-df.to_csv(f"./Data/pre_encar_data_{time.localtime().tm_year}_{time.localtime().tm_mon}_{datetime.now(ZoneInfo('Asia/Seoul')).strftime('%d')}.csv", index=False, encoding='utf-8-sig')
+df.to_csv(f"./Data/pre_encar_data_{date_str}.csv", index=False, encoding='utf-8-sig')
 
 X = df.drop(['Price', 'Id'], axis=1)
 y = df['Price']
@@ -75,7 +78,7 @@ rmse = np.sqrt(mean_squared_error(valid_y, preds))
 mae = mean_absolute_error(valid_y, preds)
 r2 = r2_score(valid_y, preds)
 
-file_path = os.path.join('./Results', f"metrics_{time.localtime().tm_year}_{time.localtime().tm_mon}_{datetime.now(ZoneInfo('Asia/Seoul')).strftime('%d')}.txt")
+file_path = os.path.join('./Results', f"metrics_{date_str}.txt")
 with open(file_path, 'w', encoding='utf-8') as f:
     f.write(f"RMSE : {rmse:.4f}\n")
     f.write(f"MAE : {mae:.4f}\n")
@@ -83,4 +86,4 @@ with open(file_path, 'w', encoding='utf-8') as f:
 
 model.fit(X, y)
 
-joblib.dump(model, f"./Model/model_pipe_{time.localtime().tm_year}_{time.localtime().tm_mon}_{datetime.now(ZoneInfo('Asia/Seoul')).strftime('%d')}.pkl")
+joblib.dump(model, f"./Model/model_pipe_{date_str}.pkl")
