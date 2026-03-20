@@ -27,9 +27,10 @@ jobs:
         env:
           REPO_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: |
-          echo "## Model Metrics" > report.md
-          cat ./Results/metrics.txt >> report.md
-          cml comment create report.md
+          mkdir Reports
+          echo "## Model Metrics" > Reports/report.md
+          cat ./Results/metrics_$(TZ=Asia/Seoul date +%Y_%m_%d).txt >> Reports/report.md
+          cml comment create Reports/report.md
 
       - name: Update Branch
         env:
