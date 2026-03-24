@@ -11,7 +11,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+
+      - name: Checkout update branch
+        uses: actions/checkout@v3
+        with:
+          ref: update
 
       - name: Install Packages
         run: |

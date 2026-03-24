@@ -16,7 +16,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout update branch
+        uses: actions/checkout@v3
+        with:
+          ref: update
       - uses: iterative/setup-cml@v2
 
       - name: Install Packages
