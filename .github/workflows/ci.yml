@@ -34,7 +34,7 @@ jobs:
         env:
           REPO_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: |
-          mkdir Reports
+          mkdir -p Reports
           echo "## Model Metrics" > Reports/report_$(TZ=Asia/Seoul date +%Y_%m_%d).md
           cat ./Results/metrics_$(TZ=Asia/Seoul date +%Y_%m_%d).txt >> Reports/report_$(TZ=Asia/Seoul date +%Y_%m_%d).md
           cml comment create Reports/report_$(TZ=Asia/Seoul date +%Y_%m_%d).md
