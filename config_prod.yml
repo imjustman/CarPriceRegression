@@ -1,6 +1,6 @@
-VERSION: '2026_03_30'
-MODEL_DIR: Model/model_pipe_2026_03_30.pkl
-CATEGORY_MAP_DIR: Artifacts/category_map_2026_03_30.pkl
+VERSION: '2026_03_31'
+MODEL_DIR: Model/model_pipe_2026_03_31.pkl
+CATEGORY_MAP_DIR: Artifacts/category_map_2026_03_31.pkl
 PORT: 8003
 HOST: 0.0.0.0
 DEBUG: false
